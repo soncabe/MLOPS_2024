@@ -1,2 +1,10 @@
-pylint ==2.15.0
-black == 22.6.0
+fastapi
+uvicorn
+pylint
+black
+pytest
+keras
+numpy
+pickle
+tensorflow
+pandas

@@ -1,7 +1,6 @@
 from fastapi import FastAPI, UploadFile, File
 import uvicorn
 import pickle
-import pandas as pd
 import numpy as np
 from keras.preprocessing import image
 
@@ -21,8 +20,7 @@ def upload(file: UploadFile = File(...)):
         contents = file.file.read()
         with open(file.filename, 'wb') as f:
             f.write(contents)
-    except Exception:
-        return {"message": f"Successfully uploaded {file.filename}"}
+    
     finally:
         file.file.close()
 

@@ -1,6 +1,9 @@
-catboost==1.0.6
-fastapi==0.79.1
-uvicorn==0.18.2
+fastapi==0.110.0
+uvicorn==0.27.1
 pytest==7.1.2
-pylint ==2.15.0
-black == 22.6.0
+pylint ==2.14.5
+keras ==2.13.1
+numpy ==1.24.3
+pickleshare ==0.7.5
+tensorflow ==2.13.0
+pandas == 2.1.4

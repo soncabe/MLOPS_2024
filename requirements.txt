@@ -3,3 +3,6 @@ uvicorn==0.18.2
 pytest==7.1.2
 pylint ==2.15.0
 black == 22.6.0
+pandas
+numpy
+keras
